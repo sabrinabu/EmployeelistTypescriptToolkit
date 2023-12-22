@@ -21,7 +21,7 @@
 
     dispatch(addNewEmployee(newContact));
   };
- ### Toolkit code PayloadAction<Employee> type addNewEmployee: (state, action: PayloadAction<Employee>) => {
+ ### Toolkit code PayloadAction Employee type addNewEmployee: (state, action: PayloadAction<Employee>) => {
       state.employees = [
         ...state.employees,
         {
