@@ -3,7 +3,7 @@
 ## here I used Employee type to send data toolkit and similarly I added same type toolkit too.
 
 
-### const handleAddFormSubmit = (event) => {
+`` const handleAddFormSubmit = (event) => {
     event.preventDefault();
 
     let newContact: Employee = {
@@ -20,8 +20,10 @@
     };
 
     dispatch(addNewEmployee(newContact));
-  };
- ### Toolkit code PayloadAction Employee type addNewEmployee: (state, action: PayloadAction<Employee>) => {
+  };``
+ ### Toolkit code PayloadAction Employee type 
+ 
+ `` addNewEmployee: (state, action: PayloadAction<Employee>) => {
       state.employees = [
         ...state.employees,
         {
@@ -38,4 +40,4 @@
         },
       ];
       console.log(state.employees);
-    },
+    },``
