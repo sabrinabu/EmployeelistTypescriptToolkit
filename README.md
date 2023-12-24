@@ -41,3 +41,8 @@
       ];
       console.log(state.employees);
     },``
+
+    ##### conditonal css tailwind
+    `` className={`gap-4 flex-grow justify-center ${
+          showFullWithSearch ? "flex" : "hidden md:flex"
+        }`}``
